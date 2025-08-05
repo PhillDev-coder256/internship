@@ -1,0 +1,14 @@
+.images{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.img-1, .img-2, .img-3, .img-4, .img-5{
+    width: 20%;
+    border: 2px solid red;
+}
+
+img{
+   width: 100%; 
+}

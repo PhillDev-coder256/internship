@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #eee;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  border-bottom: 2px solid #ddd;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 60px;
+  height: auto;
+}
+
+nav {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: underline;
+  color: teal;
+  font-weight: bold;
+}
+
+.banner {
+  background: linear-gradient(to right, #8ecae6, #fff);
+  text-align: center;
+  padding: 20px;
+  font-size: 1.5em;
+  color: #444;
+}
+
+.banner .dots{
+    display: flex;
+    justify-content: center;
+}
+
+.banner .dots div{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    margin: 5px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  flex: 1 1 300px;
+  max-width: 350px;
+}
+
+.news {
+  background: #e6e6fa;
+}
+
+.find-dentist {
+  background: #f8d7da;
+}
+
+.tips {
+  background: #e9d8fd;
+}
+
+h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+input[type="text"] {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
